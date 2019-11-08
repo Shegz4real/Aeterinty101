@@ -1,4 +1,4 @@
-contract LandRegistration =
+payable contract LandRegistration =
   
     
   record landDetails = 
