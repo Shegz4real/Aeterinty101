@@ -51,13 +51,4 @@ contract LandRegistration =
   entrypoint getLandLength() : int = 
     state.landLength
     
-  //price of land
-    
-  entrypoint getPrice(index : int) = 
-    state.lands[index].price
-    
-    
-    
-  entrypoint getId(index : int) = 
-      state.lands[index].id
-      
+ 
